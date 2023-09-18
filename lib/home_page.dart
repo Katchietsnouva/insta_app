@@ -16,18 +16,31 @@ class _HomePageState extends State<HomePage> {
         ),
         actions: [
           IconButton(
-              icon: Icon(Icons.add_circle_outline),
+            icon: Icon(Icons.add_circle_outline),
             onPressed: () {},
           ),
           IconButton(
-              icon: Icon(Icons.favorite_border),
+            icon: Icon(Icons.favorite_border),
             onPressed: () {},
           ),
           IconButton(
-              icon: Icon(Icons.chat_bubble_outline),
+            icon: Icon(Icons.chat_bubble_outline),
             onPressed: () {},
           ),
         ],
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            //STORY
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(children: List.generate(8, (index) => Container(
+                child: CircleAvatar(),
+              ),),),
+            )
+          ],
+        ),
       ),
     );
   }
