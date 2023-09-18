@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
     'images/Arduino.gif',
     'images/Artificial Intelligence.webp',
     'images/Augmented Reality.jpg',
-    'images/Back End Development.jpeg',
+    'images/Back End Development.jpg',
     'images/Blockchain.jpeg',
     'images/Blynk IoT.jpg',
     'images/CBIR (Content-Based Image Retrieval).jpeg',
@@ -61,11 +61,18 @@ class _HomePageState extends State<HomePage> {
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: List.generate(
-                  8,
+                  20,
                   (index) => Container(
                     padding: EdgeInsets.all(10),
                     child: CircleAvatar(
-                      backgroundImage: AssetImage(profileImages[index]),
+                      backgroundImage: AssetImage(
+                        profileImages[index]
+                        ),
+                      child: CircleAvatar(
+                        backgroundImage: AssetImage(
+                        profileImages[index]
+                        ),
+                      ),
                     ),
                   ),
                 ),
