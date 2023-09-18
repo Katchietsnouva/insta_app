@@ -7,10 +7,8 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   List<String> profileImages = [
-'images/ig_logo.png',
-'images/ig_name.png',
 'images/.NET.gif',
-'images/3D modeling.gif',
+'images/3D modeling.gif', 
 'images/Arduino.gif',
 'images/Artificial Intelligence.webp',
 'images/Augmented Reality.jpg',
