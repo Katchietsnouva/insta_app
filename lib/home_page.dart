@@ -6,6 +6,32 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  List<String> profileImages = [
+     images/ig_logo.png
+     images/ig_name.png
+     images/,.NET.gif
+     images/3D modeling.gif
+     images/Arduino.gif
+     images/Artificial Intelligence.webp
+     images/Augmented Reality.jpg
+     images/Back-End Develpoment.jpeg
+     images/Blockchain.jpeg
+     images/Blynk IoT.jpg
+     images/CBIR (Content-Based Image Retrieval).jpeg
+     images/Cloud.jpg
+     images/Data analysis.jpg
+     images/Desktop Application.jpeg
+     images/Digital Twinning.jpg
+     images/Embedded Systems.jpeg
+     images/ESP32.jpg
+     images/Fire base.jpg
+     images/Flutter.jpeg
+     images/Flutter.jpg
+     images/Front-End-Development.jpg
+     images/Full Stack Development.jpeg
+     images/Game Development.jpeg
+     images/Hockey.jpg
+  ] 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,9 +61,18 @@ class _HomePageState extends State<HomePage> {
             //STORY
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
-              child: Row(children: List.generate(8, (index) => Container(
-                child: CircleAvatar(),
-              ),),),
+              child: Row(
+                children: List.generate(
+                  8,
+                  (index) => Container(
+                    padding: EdgeInsets.all(10),
+                    child: CircleAvatar(
+                      backgroundImage: ,
+                    ),
+                    
+                  ),
+                ),
+              ),
             )
           ],
         ),
