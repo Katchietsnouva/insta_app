@@ -62,12 +62,12 @@ flutter:
   assets:
     - images/ig_logo.png
     - images/ig_name.png
-    - images/,.NET.gif
+    - images/Dot-NET.gif
     - images/3D modeling.gif
     - images/Arduino.gif
     - images/Artificial Intelligence.webp
     - images/Augmented Reality.jpg
-    - images/Back-End Develpoment.jpeg
+    - images/Back End Develpoment.jpeg
     - images/Blockchain.jpeg
     - images/Blynk IoT.jpg
     - images/CBIR (Content-Based Image Retrieval).jpeg
