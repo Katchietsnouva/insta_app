@@ -64,15 +64,24 @@ class _HomePageState extends State<HomePage> {
                   19,
                   (index) => Container(
                     padding: EdgeInsets.all(10),
-                    child: CircleAvatar(
-                      backgroundImage: AssetImage(
-                        profileImages[index]
+                    child: Column(
+                      children: [
+                        CircleAvatar(
+                          radius: 41,
+                          backgroundImage: const AssetImage(
+                            'images/ig_story.png'
+                            ),
+                          child: CircleAvatar(
+                            radius: 32,
+                            backgroundImage: AssetImage(
+                            profileImages[index]
+                            ),
+                          ),
                         ),
-                      child: CircleAvatar(
-                        backgroundImage: AssetImage(
-                        profileImages[index]
-                        ),
-                      ),
+                        SizedBox(height: 10),
+                        Text('Profile Name',style: TextStyle(fontSize: 12,
+                        color: Colors.black87),)
+                      ],
                     ),
                   ),
                 ),
