@@ -67,7 +67,7 @@ flutter:
     - images/Arduino.gif
     - images/Artificial Intelligence.webp
     - images/Augmented Reality.jpg
-    - images/Back End Develpoment.jpg
+    # - images/Back End Develpoment.jpg
     - images/Blockchain.jpeg
     - images/Blynk IoT.jpg
     - images/CBIR (Content-Based Image Retrieval).jpeg
@@ -77,10 +77,10 @@ flutter:
     - images/Digital Twinning.jpg
     - images/Embedded Systems.jpeg
     - images/ESP32.jpg
-    - images/Fire base.jpg
+    # - images/Fire base.jpg
     - images/Flutter.jpeg
     - images/Flutter.jpg
-    - images/Front-End-Development.jpg
+    # - images/Front-End-Development.jpg
     - images/Full Stack Development.jpeg
     - images/Game Development.jpeg
     - images/Hockey.jpg
