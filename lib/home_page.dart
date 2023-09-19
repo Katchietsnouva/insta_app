@@ -89,17 +89,26 @@ class _HomePageState extends State<HomePage> {
             Divider(),
             //HERE
             Column(
-                children: List.generate(
-                    15,
-                    (index) => Column(
-                          children: [
-                            //HEADER POST
-                            Row(children: [],)
-
-                          ],
+              children: List.generate(
+                15,
+                (index) => Column(
+                  children: [
+                    //HEADER POST
+                    Row(
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(10),
+                          child: CircleAvatar(
+                            radius: 32,
+                            backgroundImage: AssetImage(profileImages[index]),
+                          ),
                         ),
-                        ),
-                        )
+                      ],
+                    )
+                  ],
+                ),
+              ),
+            )
           ],
         ),
       ),
