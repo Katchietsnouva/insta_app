@@ -110,11 +110,12 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Divider(),
-            //HERE
+            //HERE DIVIDES STATUS FROM REST
             Column(
               children: List.generate(
                 15,
                 (index) => Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     //HEADER POST
                     Row(
@@ -166,7 +167,7 @@ class _HomePageState extends State<HomePage> {
                     Container(
                       padding: EdgeInsets.all(15),
                       child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           RichText(
                             text: TextSpan(
