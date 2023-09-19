@@ -172,9 +172,15 @@ class _HomePageState extends State<HomePage> {
                               style: TextStyle(color: Colors.black),
                               children: [
                                 TextSpan(text: 'Liked by '),
+                                TextSpan(
+                                  text: 'Profile Name',
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
                               ],
                             ),
-                          )
+                          ),
                         ],
                       ),
                     )
