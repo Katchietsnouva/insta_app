@@ -30,6 +30,29 @@ class _HomePageState extends State<HomePage> {
     'images/Game Development.jpeg',
     'images/Hockey.jpg',
   ];
+
+  List<String> posts = [
+    'images/Industrie 4.0.jpg',
+    'images/IoT.jpg',
+    'images/Ladder Logic.jpg',
+    'images/Logo creation.webp',
+    'images/Machine learning.jpeg',
+    'images/Mechatronics.jpg',
+    'images/MERN development.jpeg',
+    'images/Mobile Applications.jpeg',
+    'images/Music Production.jpg',
+    'images/Node Red.jpg',
+    'images/PCB Designer.jpg',
+    'images/Posters.jpg',
+    'images/React.jpg',
+    'images/Rigging.jpg',
+    'images/Robotics.jpeg',
+    'images/Software Development.png',
+    'images/Space Rocket.jpg',
+    'images/Virtual Reality.jpeg',
+    'images/Web3.png',
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -115,7 +138,8 @@ class _HomePageState extends State<HomePage> {
                           onPressed: () {},
                         )
                       ],
-                    )
+                    ),
+                    //IMAGE POST
                   ],
                 ),
               ),
