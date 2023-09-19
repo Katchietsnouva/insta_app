@@ -166,6 +166,7 @@ class _HomePageState extends State<HomePage> {
                     Container(
                       padding: EdgeInsets.all(15),
                       child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           RichText(
                             text: TextSpan(
