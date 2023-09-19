@@ -140,6 +140,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     //IMAGE POST
+                    Image.asset(posts[index])
                   ],
                 ),
               ),
