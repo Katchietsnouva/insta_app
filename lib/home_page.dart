@@ -99,9 +99,14 @@ class _HomePageState extends State<HomePage> {
                         Container(
                           padding: EdgeInsets.all(10),
                           child: CircleAvatar(
-                            radius: 32,
+                          radius: 20,
+                          backgroundImage:
+                              const AssetImage('images/ig_story.png'),
+                          child: CircleAvatar(
+                            radius: 15,
                             backgroundImage: AssetImage(profileImages[index]),
                           ),
+                        ),
                         ),
                       ],
                     )
