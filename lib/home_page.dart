@@ -140,7 +140,28 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     //IMAGE POST
-                    Image.asset(posts[index])
+                    Image.asset(posts[index]),
+                    //FOOTER POST
+                    Row(
+                      children: [
+                        IconButton(
+                          icon: Icon(Icons.favorite_border),
+                          onPressed: () {},
+                        ),
+                        IconButton(
+                          icon: Icon(Icons.chat_bubble_outline),
+                          onPressed: () {},
+                        ),
+                        IconButton(
+                          icon: Icon(Icons.label_outlined),
+                          onPressed: () {},
+                        ),
+                        IconButton(
+                          icon: Icon(Icons.bookmark_border),
+                          onPressed: () {},
+                        ),
+                      ],
+                    )
                   ],
                 ),
               ),
