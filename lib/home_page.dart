@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: List.generate(
-                  20,
+                  19,
                   (index) => Container(
                     padding: EdgeInsets.all(10),
                     child: CircleAvatar(
