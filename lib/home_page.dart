@@ -68,19 +68,18 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         CircleAvatar(
                           radius: 41,
-                          backgroundImage: const AssetImage(
-                            'images/ig_story.png'
-                            ),
+                          backgroundImage:
+                              const AssetImage('images/ig_story.png'),
                           child: CircleAvatar(
                             radius: 32,
-                            backgroundImage: AssetImage(
-                            profileImages[index]
-                            ),
+                            backgroundImage: AssetImage(profileImages[index]),
                           ),
                         ),
                         SizedBox(height: 10),
-                        Text('Profile Name',style: TextStyle(fontSize: 12,
-                        color: Colors.black87),)
+                        Text(
+                          'Profile Name',
+                          style: TextStyle(fontSize: 12, color: Colors.black87),
+                        )
                       ],
                     ),
                   ),
@@ -89,6 +88,18 @@ class _HomePageState extends State<HomePage> {
             ),
             Divider(),
             //HERE
+            Column(
+                children: List.generate(
+                    15,
+                    (index) => Column(
+                          children: [
+                            //HEADER POST
+                            Row(children: [],)
+
+                          ],
+                        ),
+                        ),
+                        )
           ],
         ),
       ),
