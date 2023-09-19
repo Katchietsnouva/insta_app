@@ -180,6 +180,14 @@ class _HomePageState extends State<HomePage> {
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
+                                TextSpan(text: ' and'),
+                                
+                                TextSpan(
+                                  text: ' others',
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
                               ],
                             ),
                           ),
