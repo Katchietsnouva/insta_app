@@ -156,11 +156,27 @@ class _HomePageState extends State<HomePage> {
                           icon: Icon(Icons.label_outlined),
                           onPressed: () {},
                         ),
+                        Spacer(),
                         IconButton(
                           icon: Icon(Icons.bookmark_border),
                           onPressed: () {},
                         ),
                       ],
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(15),
+                      child: Column(
+                        children: [
+                          RichText(
+                            text: TextSpan(
+                              style: TextStyle(color: Colors.black),
+                              children: [
+                                TextSpan(text: 'Liked by '),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
                     )
                   ],
                 ),
